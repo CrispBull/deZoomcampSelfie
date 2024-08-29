@@ -5,6 +5,7 @@ RUN pip install pgcli
 RUN pip install jupyter
 RUN pip install parquet-tools
 RUN pip install sqlalchemy
+RUN pip install psycopg2-binary
 
 
 WORKDIR /ppdir
