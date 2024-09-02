@@ -6,6 +6,7 @@ RUN pip install jupyter
 RUN pip install parquet-tools
 RUN pip install sqlalchemy
 RUN pip install psycopg2-binary
+RUN pip install sqlalchemy_utils 
 
 
 WORKDIR /ppdir
