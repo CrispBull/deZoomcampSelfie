@@ -1,4 +1,4 @@
-wk1/docker_sql/data/nyc_taxi.csv wk1/docker_sql/data/yellow_tripdata_2021-01.parquet
-wk1/docker_sql/.ipynb_checkpoints/upload_data-checkpoint.ipynb
-wk1/docker_sql/data/nyc_taxi.csv wk1/docker_sql/data/yellow_tripdata_2021-01.parquet
+.ipynb_checkpoints/*
+.ipynb_checkpoints/
+wk1/docker_sql/data/dask_converted.csv wk1/docker_sql/data/fastparquet_converted.csv wk1/docker_sql/data/green_taxi_jan_2024.parquet wk1/docker_sql/data/polars_converted.csv wk1/docker_sql/data/pqrs_converted.csv wk1/docker_sql/data/pyarrow_converted.csv wk1/docker_sql/data/yellow_tripdata_2021-01.parquet
 wk1/docker_sql/data/
