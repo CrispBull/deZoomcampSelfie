@@ -6,7 +6,12 @@ RUN pip install jupyter
 RUN pip install parquet-tools
 RUN pip install sqlalchemy
 RUN pip install psycopg2-binary
-RUN pip install sqlalchemy_utils 
+RUN pip install sqlalchemy_utils
+RUN pip install argparse  
+RUN pip install dask
+RUN pip install fastparquet
+RUN pip install "dask[complete]"
+RUN pip install polars
 
 
 WORKDIR /ppdir
