@@ -122,6 +122,14 @@ docker network ls
 or delete a network by;
 ```bash
 docker network rm network-name
+``` 
+To start an existing container with its associated name;
+```bash
+docker start container-name
+```
+To remove an existing container so we can use the name;
+```bash
+docker rm container-name
 ```
 
 Now to run the images we want to combine in a network, in this case of pgadmin and postgres, we can combine them like below
