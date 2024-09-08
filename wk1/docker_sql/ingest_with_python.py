@@ -25,9 +25,7 @@ def main(params):
     table_name = params.table_name
     url = params.url
     
-    #green_taxi_parquet = 'data/green_taxi_jan_2024.parquet'
-    #green_taxi_csv = 'data/green_taxi_jan_2024.csv' 
-    #yellow_taxi_url = 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet'
+    #yellow_taxi_url = 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet' # very large file
     #green_taxi_url = 'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2024-01.parquet'
     file_name = os.path.basename(url)
     if table_name == '':
